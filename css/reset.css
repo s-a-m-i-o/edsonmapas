@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: "Lato", serif;
+    padding: 100px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+a,
+button {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+table {
+    width: 95%;
+}
+
+table td {
+    border-radius: 7px;
+    padding: 5px;
+}
+
+
+table th {
+    background-color: var(--logo-jw);
+    color: #fff;
+}
+
+table td {
+    border: 1px solid #4A6DA7;
+    text-align: center;
+}
+
+.green {
+    color: green;
+}
